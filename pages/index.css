@@ -1,0 +1,38 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__edit-button/profile__edit-button.css);
+@import url(../blocks/profile/__profile-info/profile__profile-info.css);
+@import url(../blocks/profile/__about/profile__about.css);
+@import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__occupation/profile__occupation.css);
+@import url(../blocks/profile/__text-info/profile__text-info.css);
+
+@import url(../blocks/places-list/places-list.css);
+@import url(../blocks/places-list/__cover/places-list__cover.css);
+@import url(../blocks/places-list/__description/places-list__description.css);
+@import url(../blocks/places-list/__like-button/places-list__like-button.css);
+@import url(../blocks/places-list/__item/places-list__item.css);
+@import url(../blocks/places-list/__title/places-list__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/pop-up/pop-up.css);
+@import url(../blocks/pop-up/_opened/pop-up_opened.css);
+@import url(../blocks/pop-up/__background/pop-up__background.css);
+@import url(../blocks/pop-up/__form/pop-up__form.css);
+@import url(../blocks/pop-up/__title/pop-up__title.css);
+@import url(../blocks/pop-up/__name/pop-up__name.css);
+@import url(../blocks/pop-up/__occupation/pop-up__occupation.css);
+@import url(../blocks/pop-up/__form-item/pop-up__form-item.css);
+@import url(../blocks/pop-up/__save-button/pop-up__save-button.css);
+@import url(../blocks/pop-up/__close-button/pop-up__close-button.css);

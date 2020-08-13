@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="pages/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mesto</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <img class="header__logo" src="mesto-images/logo.png" alt="Логотип">
+    </header>
+
+    <section class="profile">
+       <div class="profile__profile-info">
+        <div class="profile__about">
+          <img class="profile__avatar" src="mesto-images/avatar.jpg" alt="Аватар">
+          <div class="profile__text-info">
+            <p class="profile__name">Жак-Ив Кусто</p>
+            <p class="profile__occupation">Исследователь океана</p>
+          </div>
+        </div>
+        <button class="profile__edit-button"></button>
+      </div>
+      <button class="profile__add-button"></button>
+    </section>
+
+    <section class="places-list">
+
+      <div class="places-list__item">
+        <img class="places-list__cover" src="mesto-images/places/Archyz-unsplash.jpg" alt="Архыз">
+        <div class="places-list__descriprion">
+          <p class="places-list__title">Архыз</p>
+          <button class="places-list__like-button"></button>
+        </div>
+      </div> 
+
+      <div class="places-list__item">
+        <img class="places-list__cover" src="mesto-images/places/Baikal-unsplash.jpg" alt="Байкал">
+        <div class="places-list__descriprion">
+          <p class="places-list__title">Байкал</p>
+          <button class="places-list__like-button"></button>
+        </div>
+      </div> 
+
+      <div class="places-list__item">
+        <img class="places-list__cover" src="mesto-images/places/Chagun-Uzun-unsplash.jpg" alt="Чаган-Узун">
+        <div class="places-list__descriprion">
+          <p class="places-list__title">Чаган-Узун</p>
+          <button class="places-list__like-button"></button>
+        </div>
+      </div> 
+
+      <div class="places-list__item">
+        <img class="places-list__cover" src="mesto-images/places/Kamchatka-unsplash.jpg" alt="Камчатка">
+        <div class="places-list__descriprion">
+          <p class="places-list__title">Камчатка</p>
+          <button class="places-list__like-button"></button>
+        </div>
+      </div> 
+
+      <div class="places-list__item">
+        <img class="places-list__cover" src="mesto-images/places/Severo-Chuyskiy-Khrebet-unsplash.jpg" alt="Северо-Чуйский Хребет">
+        <div class="places-list__descriprion">
+          <p class="places-list__title">Северо-Чуйский Хребет</p>
+          <button class="places-list__like-button"></button>
+        </div>
+      </div> 
+
+      <div class="places-list__item">
+        <img class="places-list__cover" src="mesto-images/places/Sudak-unsplash.jpg" alt="Судак">
+        <div class="places-list__descriprion">
+          <p class="places-list__title">Судак</p>
+          <button class="places-list__like-button"></button>
+        </div>
+      </div> 
+
+    </section>
+
+    <section class="pop-up">
+      <div class="pop-up__background"></div>
+      <button class="pop-up__close-button"></button>
+      <form class="pop-up__form">
+        <h2 class="pop-up__title">Редактировать профиль</h2>
+        <input type="text" class="pop-up__form-item pop-up__name">
+        <input type="text" class="pop-up__form-item pop-up__occupation">
+        <button class="pop-up__save-button">Сохранить</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__copyright">&copy 2020 Mesto Russia</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>

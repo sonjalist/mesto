@@ -1,0 +1,28 @@
+.profile__add-button {
+    justify-content: right;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-image: url(../../../mesto-images/add.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    transition: opacity 0.2s linear;
+    cursor: pointer;
+}
+
+.profile__add-button:hover {
+    opacity: 60%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .profile__add-button {
+        width: 282px;
+        margin-top: 36px;
+        align-self: center;
+    }
+  
+  }
