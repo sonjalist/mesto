@@ -15,3 +15,12 @@
 .pop-up__form-item:nth-child(3){
     margin-top: 16px;
 }   
+
+@media screen and (max-width: 520px) {
+
+    .pop-up__form-item {
+        margin: auto;
+        width: calc(100vw - 30px);
+    }
+  
+  }

@@ -1,9 +1,9 @@
 .pop-up__close-button {
     width: 36px;
     height: 36px;
-    position: fixed;
-    left: calc(50% + 215px);
-    top: calc(50% - 201px);
+    position: relative;
+    left: 430px;
+    top: 0px;
     background-image: url(../../../mesto-images/Close\ Icon.png);
     background-position: center;
     background-color: rgba(0, 0, 0, 0);
@@ -16,3 +16,12 @@
 .pop-up__close-button:hover {
     opacity: 60%;
 }
+
+@media screen and (max-width: 520px) {
+
+    .pop-up__close-button {
+        left: calc(50% - 15px);
+        top: -10px;
+    }
+  
+  }

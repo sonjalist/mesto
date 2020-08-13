@@ -5,7 +5,7 @@
     background-color: black;
     border: 2px solid white;
     border-radius: 2px;
-    background-image: url(../../../mesto-images/add.png);
+    background-image: url(../../../mesto-images/add.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 22px 22px;
@@ -17,7 +17,7 @@
     opacity: 60%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 920px) {
 
     .profile__add-button {
         width: 282px;

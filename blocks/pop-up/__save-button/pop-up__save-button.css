@@ -4,6 +4,7 @@
     height: 50px;
     margin: auto;
     margin-top: 48px;
+    margin-bottom: 36px;
     border: none;
     color: white;
     border-radius: 2px;
@@ -13,3 +14,11 @@
 .pop-up__save-button:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 520px) {
+
+    .pop-up__save-button {
+        width: calc(100vw - 30px);
+    }
+  
+  }
