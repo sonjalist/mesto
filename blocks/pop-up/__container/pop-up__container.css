@@ -1,0 +1,15 @@
+.pop-up__container {
+    position: relative;
+    top: calc(50% - 185px);
+    left: calc(50% - 215px);
+}
+
+@media screen and (max-width: 630px) {
+
+    .pop-up__container {
+        left: 15px;
+        top: 40px;
+        margin: auto;
+    }
+  
+  }

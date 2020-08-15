@@ -1,5 +1,6 @@
 .footer {
-    max-width: 882px;
     margin: auto;
     display: flex;
+    padding-top: 66px;
+    padding-bottom: 60px;
 }

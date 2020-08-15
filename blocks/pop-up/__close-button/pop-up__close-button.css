@@ -4,7 +4,7 @@
     position: relative;
     left: 430px;
     top: 0px;
-    background-image: url(../../../mesto-images/Close\ Icon.png);
+    background-image: url(../../../mesto-images/CloseIcon.svg);
     background-position: center;
     background-color: rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
@@ -17,10 +17,10 @@
     opacity: 60%;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 630px) {
 
     .pop-up__close-button {
-        left: calc(50% - 15px);
+        left: calc(50% - 30px);
         top: -10px;
     }
   

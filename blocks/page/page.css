@@ -7,4 +7,6 @@
     -moz-text-size-adjust: 100%;
     background-color: black;
     color: white;
+    max-width: 882px;
+    margin: auto;
 }

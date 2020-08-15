@@ -16,11 +16,11 @@
     margin-top: 16px;
 }   
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 630px) {
 
     .pop-up__form-item {
         margin: auto;
-        width: calc(100vw - 30px);
+        width: calc(100vw - 100px);
     }
   
   }

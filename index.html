@@ -30,7 +30,7 @@
       <div class="places-list__item">
         <img class="places-list__cover" src="mesto-images/places/Archyz-unsplash.jpg" alt="Архыз">
         <div class="places-list__descriprion">
-          <p class="places-list__title">Архыз</p>
+          <h2 class="places-list__title">Архыз</h2>
           <button class="places-list__like-button" type="button"></button>
         </div>
       </div> 
@@ -38,7 +38,7 @@
       <div class="places-list__item">
         <img class="places-list__cover" src="mesto-images/places/Baikal-unsplash.jpg" alt="Байкал">
         <div class="places-list__descriprion">
-          <p class="places-list__title">Байкал</p>
+          <h2 class="places-list__title">Байкал</h2>
           <button class="places-list__like-button" type="button"></button>
         </div>
       </div> 
@@ -46,7 +46,7 @@
       <div class="places-list__item">
         <img class="places-list__cover" src="mesto-images/places/Chagun-Uzun-unsplash.jpg" alt="Чаган-Узун">
         <div class="places-list__descriprion">
-          <p class="places-list__title">Чаган-Узун</p>
+          <h2 class="places-list__title">Чаган-Узун</h2>
           <button class="places-list__like-button" type="button"></button>
         </div>
       </div> 
@@ -54,7 +54,7 @@
       <div class="places-list__item">
         <img class="places-list__cover" src="mesto-images/places/Kamchatka-unsplash.jpg" alt="Камчатка">
         <div class="places-list__descriprion">
-          <p class="places-list__title">Камчатка</p>
+          <h2 class="places-list__title">Камчатка</h2>
           <button class="places-list__like-button" type="button"></button>
         </div>
       </div> 
@@ -62,7 +62,7 @@
       <div class="places-list__item">
         <img class="places-list__cover" src="mesto-images/places/Severo-Chuyskiy-Khrebet-unsplash.jpg" alt="Северо-Чуйский Хребет">
         <div class="places-list__descriprion">
-          <p class="places-list__title">Северо-Чуйский Хребет</p>
+          <h2 class="places-list__title">Северо-Чуйский Хребет</h2>
           <button class="places-list__like-button" type="button"></button>
         </div>
       </div> 
@@ -70,7 +70,7 @@
       <div class="places-list__item">
         <img class="places-list__cover" src="mesto-images/places/Sudak-unsplash.jpg" alt="Судак">
         <div class="places-list__descriprion">
-          <p class="places-list__title">Судак</p>
+          <h2 class="places-list__title">Судак</h2>
           <button class="places-list__like-button" type="button"></button>
         </div>
       </div> 
@@ -81,14 +81,15 @@
       <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
 
       <div class="pop-up">
-        <div class="pop-up__background"></div>
-        <button class="pop-up__close-button"></button>
-        <form class="pop-up__form">
-          <h2 class="pop-up__title">Редактировать профиль</h2>
-          <input type="text" class="pop-up__form-item pop-up__name" name="name">
-          <input type="text" class="pop-up__form-item pop-up__occupation" name="occupation">
-          <button class="pop-up__save-button">Сохранить</button>
-        </form>
+        <div class="pop-up__container">
+          <button class="pop-up__close-button"></button>
+          <form class="pop-up__form" name="editProfile">
+            <h2 class="pop-up__title">Редактировать профиль</h2>
+            <input type="text" class="pop-up__form-item pop-up__name" name="name">
+            <input type="text" class="pop-up__form-item pop-up__occupation" name="occupation">
+            <button class="pop-up__save-button">Сохранить</button>
+          </form>
+        </div>
       </div>
 
     </footer>
